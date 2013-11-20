@@ -2,8 +2,8 @@
   "name": "font-awesome-4-less",
   "description": "Font Awesome 4's LESS sources. Using this package will allow you reuse mixins and variables. As default, import '/packages/font-awesome-4-less/font-awesome.lessimport'",
   "homepage": "https://github.com/svub/fontawesome4-less",
-  "author": "Sven Buschbeck (http://svenbuschbeck.net), Font Awesome (http://fontawesome.io)",
-  "version": "4.0.3.1",
+  "author": "Sven Buschbeck (http://svenbuschbeck.net)",
+  "version": "4.0.3.2",
   "git": "https://github.com/svub/fontawesome4-less.git",
   "packages": {}
 }

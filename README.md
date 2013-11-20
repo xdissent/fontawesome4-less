@@ -1,5 +1,5 @@
 #font-awesome-4-less
-Fontawesome 4 LESS source files as meteorite smart package.
+[Font Awesome](http://fortawesome.github.com/Font-Awesome/) 4 LESS source files as meteorite smart package.
 
 ##Installation
 Import Font Awesome in on of your LESS files like this:
