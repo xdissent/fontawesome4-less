@@ -1,0 +1,29 @@
+/*!
+ *  Font Awesome 4.0.3 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+
+@import "lib/less/variables.lessimport";
+
+@fa-font-path: "/fontawesome";
+//@fa-font-path: "//netdna.bootstrapcdn.com/font-awesome/4.0.3/fonts"; // for referencing Bootstrap CDN font files directly
+
+@import "lib/less/mixins.lessimport";
+@import "lib/less/path.lessimport";
+@import "lib/less/core.lessimport";
+@import "lib/less/larger.lessimport";
+@import "lib/less/fixed-width.lessimport";
+@import "lib/less/list.lessimport";
+@import "lib/less/bordered-pulled.lessimport";
+@import "lib/less/spinning.lessimport";
+@import "lib/less/rotated-flipped.lessimport";
+@import "lib/less/stacked.lessimport";
+@import "lib/less/icons.lessimport";
+
+/* Embedding Font Awesome icons */
+#fa-icon(@name) {
+  .fa();
+  // @n: 'fa-var-'+@name;
+  @n: "fa-var-@{name}";
+  &:before { content: @@n; }
+}
