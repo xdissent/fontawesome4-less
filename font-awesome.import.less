@@ -21,12 +21,12 @@
 @import "lib/less/icons.import.less";
 
 /* Embedding Font Awesome icons */
-#fa-icon(@name) {
+.fa-icon(@name) {
   .fa();
   @n: "fa-var-@{name}";
   &:before { content: @@n; }
 }
-#fa-icon(@name, @color) {
-  #fa-icon(@name)
+.fa-icon(@name, @color) {
+  .fa-icon(@name)
   &:before { color: @color; }
 }
