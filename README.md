@@ -4,7 +4,7 @@
 ##Installation
 Import Font Awesome in on of your LESS files like this:
 ```css
-@import "/packages/font-awesome-4-less/font-awesome.lessimport";
+@import "/packages/font-awesome-4-less/font-awesome.import.less";
 ```
 Execute this command with the project directory:
 ```bash
