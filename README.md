@@ -4,7 +4,7 @@
 ##Installation
 Import Font Awesome in on of your LESS files like this:
 ```css
-@import "/packages/font-awesome-4-less/font-awesome.lessimport";
+@import "/packages/font-awesome-4-less/font-awesome.import.less";
 ```
 Execute this command with the project directory:
 ```bash
@@ -19,5 +19,5 @@ Adding icons to your LESS by simply calling the #fa-icon mixin (example):
 .go-back-link i { #fa-icon(reply) }
 .ok-back-link { #fa-icon(check-circle, green) }
 ```
-Use the icon name without any prefixes. As shown in line 2, there is no need to add an <i> tag to show icons, also, you can optionally pass a color for the icon.
+Use the icon name without any prefixes. As shown in line 2, there is no need to add an `<i>` tag to show icons, also, you can optionally pass a color for the icon.
 **Note:** aliases are not supported---You'll notice a "Less compiler error: variable @fa-var-... is undefined" error message. Please find the original name of the icon and use that instead.
